@@ -1,0 +1,70 @@
+body {
+  background-color: rgba(163, 158, 152, 0.374);
+}
+
+#a {
+  background-color: #f5f1f1e0;
+  height: 400px;
+  width: 400px;
+  margin: 50px 0px 50px 530px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  align-items: center;
+}
+
+.fas.fa-bell {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  padding: 4px 6px;
+  color: #060606;
+  font-size: 24px;
+  margin: 5px; /* optional padding from edges */
+}
+
+#b {
+  position: relative;
+  background-color: aqua;
+  height: 150px;
+  width: 150px;
+  margin: 50px 80px 100px 120px;
+  position: absolute;
+  border-radius: 200px;
+  background-image: url("IMG_20240421_1911291951515733_optimized_950.jpg");
+  background-size: cover;
+  border: 2px solid rgba(3, 183, 228, 0.776);
+  z-index: 1;
+}
+
+#c {
+  position: absolute;
+  margin: 195px 50px 50px 115px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(10, 10, 10);
+  z-index: 2;
+}
+
+#d {
+  position: absolute;
+  text-align: center;
+  margin: -10px -70px 0px -70px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#e {
+  position: absolute;
+  margin: 60px 23px 0px -15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-radius: 25px;
+  border: 0cm;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(50, 102, 206, 0.621);
+  z-index: 3;
+  cursor: pointer;
+}
